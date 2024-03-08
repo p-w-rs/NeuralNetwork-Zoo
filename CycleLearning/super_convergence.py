@@ -38,5 +38,5 @@ for model_name, model_class in models.items():
             )
             manager.fit(epochs)
             manager.plot_metrics(
-                f"{model_name}__batch_{batch_size}_{optimizer_name}.png"
+                f"{model_name}_batch_{batch_size}_{optimizer_name}.png"
             )
